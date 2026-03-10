@@ -2,18 +2,20 @@
 <html>
 <head>
     <style>
-        body { background: #000; color: #0f0; font-family: 'Courier New', monospace; display: flex; height: 100vh; margin: 0; align-items: center; justify-content: center; }
-        .box { border: 1px solid #0f0; padding: 30px; box-shadow: 0 0 15px #0f0; }
-        .blink { animation: b 1s infinite; }
-        @keyframes b { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+        body { font-family: arial, sans-serif; display: flex; flex-direction: column; align-items: center; height: 100vh; margin: 0; justify-content: center; }
+        .logo { font-size: 80px; font-weight: bold; margin-bottom: 20px; }
+        .g { color: #4285F4; } .r { color: #EA4335; } .y { color: #FBBC05; } .b { color: #34A853; }
+        .search-box { border: 1px solid #dfe1e5; border-radius: 24px; width: 500px; padding: 12px 20px; display: flex; align-items: center; }
+        input { border: none; outline: none; width: 100%; font-size: 16px; }
+        .btns { margin-top: 20px; }
+        button { background: #f8f9fa; border: 1px solid #f8f9fa; padding: 10px 16px; margin: 5px; border-radius: 4px; cursor: pointer; }
     </style>
 </head>
 <body>
-    <div class="box">
-        <div>> PROJECT_B_ROOT</div>
-        <p>STATUS: OPERATIONAL</p>
-        <p>LOAD_BALANCER: ACTIVE</p>
-        <div>_ <span class="blink">█</span></div>
+    <div class="logo"><span class="g">G</span><span class="r">o</span><span class="y">o</span><span class="g">g</span><span class="b">l</span><span class="r">e</span></div>
+    <div class="search-box"><input type="text"></div>
+    <div class="btns">
+        <button>Google Search</button><button>I'm Feeling Lucky</button>
     </div>
 </body>
 </html>
