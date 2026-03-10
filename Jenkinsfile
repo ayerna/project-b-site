@@ -40,7 +40,7 @@ pipeline {
       steps {
         sh '''
           kubectl apply -f deployment.yaml
-          kubectl rollout restart deployment web-a -n project-b
+          kubectl rollout restart deployment web-b -n project-b
           '''
           }
       }
