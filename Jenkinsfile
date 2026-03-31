@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    ECR_REPO = "public.ecr.aws/d0z6a9w2/project-c"
+    ECR_REPO = "public.ecr.aws/d0z6a9w2/project-b"
     REGION = "ap-south-1"
   }
 
