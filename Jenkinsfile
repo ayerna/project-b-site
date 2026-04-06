@@ -16,7 +16,7 @@ pipeline {
 
     stage('Tag Image') {
       steps {
-        sh 'docker tag project-c:latest $ECR_PUBLIC_REPO:latest'
+        sh 'docker tag project-b:latest $ECR_PUBLIC_REPO:latest'
       }
     }
 
